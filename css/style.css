@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import "./global/global.css";
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
@@ -13,13 +12,5 @@
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 
-/* bicicletas */
-
+/* Bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
-=======
-@import "./reset.css";
-@import "./global/global.css";
-@import "./global/header.css";
-@import "./home/introducao.css";
-@import "./utilidades/componentes.css";
->>>>>>> 13b9995d044124e3f901bf55fff603fb6b188925
