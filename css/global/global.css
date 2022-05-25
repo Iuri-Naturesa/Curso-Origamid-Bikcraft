@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
@@ -29,3 +30,12 @@ img {
 img[src$=".jpg"] {
   border-radius: 4px;
 }
+=======
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+>>>>>>> 13b9995d044124e3f901bf55fff603fb6b188925

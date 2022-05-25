@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header-bg {
   background-color: var(--cor-12);
 }
@@ -65,3 +66,71 @@
     font-size: 14px;
   }
 }
+=======
+.header-bg {
+  background-color: #000000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+.header-menu a {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+  padding: 16px 0;
+  font-size: 18px;
+  font-family: "poppins";
+  font-weight: 400;
+}
+.header-menu a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 0px;
+  background: #ffffff;
+  margin-top: 4px;
+  transition: 0.3s;
+}
+.header-menu a:hover:after {
+  width: 100%;
+}
+@media (max-width: 800px) {
+  .header-menu {
+    gap: 20px;
+  }
+  .header-menu a {
+    background: #111111;
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+  .header-menu a:hover {
+    background-color: #2e2e2e;
+  }
+  .header a::after {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .header-menu {
+    gap: 12px;
+  }
+  .header-menu a {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+>>>>>>> 13b9995d044124e3f901bf55fff603fb6b188925
